@@ -1,0 +1,121 @@
+body{
+  background-image: url('http://www.vousnousils.fr/wp-content/uploads/2015/04/Fotolia_78444230_Subscription_Monthly_XL.jpg');
+}
+
+section{
+   
+  
+    width: 300px;
+    margin: auto; 
+    margin-top: 100px;
+ }
+.wrapper {
+    width: 420px;
+   
+    background: linear-gradient(
+      90deg,
+      rgb(155, 31, 137) 9%,
+      rgb(175, 85, 156) 68%,
+      rgb(195, 108, 162) 97%
+    );
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .form-login {
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  margin-top: 20px;
+    /*margin: 30px 0;*/
+  }
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    
+  }
+  .input-box input::placeholder {
+    color: #fff;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  .wrapper .btn {
+    width: 150px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 140px;
+    margin-top: 10px;
+  }
+  .wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+  .div{
+    text-align: center;
+    margin-top: 10px;
+    font-family: italic;
+  }
+ 
+  nav {
+    background-color: #8A0A7A; /* Couleur de fond */
+    padding: 10px; /* Espace intérieur */
+    display: flex; /* Affichage en ligne des éléments */
+    justify-content: space-between; /* Répartition des éléments sur la ligne */
+    align-items: center; /* Centrage vertical des éléments */
+    color: white; 
+    font-size: 18px; /* Taille de la police */
+}
+
+/* Style pour les liens de navigation */
+nav a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Suppression du soulignement */
+    margin-left: 1200px; /* Marge à droite entre les liens */
+    font-size: 18px; /* Taille de la police */
+
+}

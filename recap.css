@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover; /* Pour couvrir toute la zone */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    color: #fdfdfd;
+    background: linear-gradient(
+        90deg,
+        rgb(65, 0, 57) 9%,
+        rgb(117, 3, 71) 68%,
+        rgb(183, 13, 118) 97%
+    );
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.989);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+p{
+    color: #fdfdfd;
+}
+.recap {
+    margin-bottom: 20px;
+}
+
+.recap p {
+    margin-bottom: 10px;
+}

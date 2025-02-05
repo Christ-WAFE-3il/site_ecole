@@ -1,0 +1,176 @@
+body {
+    background-image: url('https://images.radio-canada.ca/q_auto,w_1250/v1/ici-info/16x9/ecole-cours-eleves.jpg');
+    background-size: cover;
+    /* Ajoutez d'autres styles au besoin */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Autres styles de corps ici */
+}
+
+.form-login {
+    font-size: 36px;
+    text-align: center;
+    color: #8A0A7A;
+}
+/* Style pour le conteneur de la navigation */
+nav {
+    background-color: #BA0C7D; /* Couleur de fond */
+    padding: 10px; /* Espace intérieur */
+    display: flex; /* Affichage en ligne des éléments */
+    justify-content: space-between; /* Répartition des éléments sur la ligne */
+    align-items: center; /* Centrage vertical des éléments */
+}
+
+/* Style pour les liens de navigation */
+nav a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Suppression du soulignement */
+    margin-right: 20px; /* Marge à droite entre les liens */
+    font-size: 18px; /* Taille de la police */
+}
+
+/* Style pour le bouton de déconnexion */
+.buttondeconnexion {
+    background-color: #8A0A7A; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    padding: 10px 20px; /* Espace intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris au survol */
+    font-size: 16px; /* Taille de la police */
+}
+
+/* Style pour le bouton de déconnexion au survol */
+.buttondeconnexion:hover {
+    background-color: #6C085E; /* Couleur de fond au survol */
+}
+.wrapper {
+    width: 420px;
+    margin-left: 35%;
+   
+    background: linear-gradient(
+      90deg,
+      rgb(65, 0, 57) 9%,
+      rgb(117, 3, 71) 68%,
+      rgb(183, 13, 118) 97%
+    );
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px 30px;
+  }
+.btn {
+    width: 300px;
+    height: 95px;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 5 5 10px rgba(0, 0, 0, 0.1);
+ 
+    font-size: 26px;
+    margin-left: 41%;
+    margin-top: 10px;
+  }
+  footer {
+    background-color: #f8f9fa;
+    padding: 10px 0 ;
+    bottom: 0;
+    margin-top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-md-4 {
+    width: calc(33.333% - 20px);
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+/* Styles CSS pour l'affichage */
+.dossier{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #f8f9fa;
+    padding: 15px;
+    border: 4px solid #cec3cc;
+    border-radius: 5px;
+    background-color: #712867;
+    width: 1400px;
+    height: 95px;
+    background: #4b0f43;
+    border-radius: 40px;
+    box-shadow: 5 5 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    font-size: 26px;
+  
+    margin-top: 10px;
+}
+.recette img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+/* Style pour les différentes classes d'avancement */
+.attente {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Ajustez la taille selon vos besoins */
+    margin-left:90%;
+}
+
+.manquant {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Ajustez la taille selon vos besoins */
+    margin-left:90%;
+}
+
+.refus {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Ajustez la taille selon vos besoins */
+    margin-left:90%;
+}
+
+.valide {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Ajustez la taille selon vos besoins */
+    margin-left:90%;
+
+}
